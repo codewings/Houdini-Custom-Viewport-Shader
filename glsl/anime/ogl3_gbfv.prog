@@ -1,0 +1,14 @@
+#name Anime GBFV shader
+#version 330
+#hou_attrib_map
+#output emission  0
+#output diffuse   1
+#output specular  2
+#output ambient   3
+#output nzmask    4
+
+#max_verts 3
+
+anime/ogl3_gbfv.vert
+anime/ogl3_gbfv.geom
+anime/ogl3_gbfv.frag
